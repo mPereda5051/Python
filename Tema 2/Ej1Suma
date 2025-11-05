@@ -1,0 +1,15 @@
+#programa que pide dos numerosenteros y dice si la suma es positiva, negativa o cero
+
+a = float(input("numero 1: "))
+b= float(input("numero 2: "))
+
+c = a + b
+
+if c < 0:
+    print("El numero es negativo")
+elif c > 0:
+    print("El numero es positivo")
+elif c == 0:
+    print("El numero es 0")
+else:
+    print("Escribe un valor valido")
