@@ -18,7 +18,7 @@ print("Media de cada columna:", medias_col)
 
 #3-encuentra el valor mínimo de cada característica np.min
 min_col = np.min(iris, axis=0)
-print("Mínimo de cada columna:", min_col)
+print("Mínimo de cada columna: \n", min_col)
 
 #4-devuelve todas las filas con largo de pétalo (col2) mayor que 5
 largo_petalo = iris[iris[:,2] >5]
@@ -27,12 +27,17 @@ print("Filas con largo de pétalo en la columna 2 mayores que 5: \n", largo_peta
 #5-filas de 50 a 99 pero solo las columnas largo y ancho del pétalo (col 2 y 3)
 matriz = iris[50:100, 2:4]
 print("Filas 50-99, columnas 2 y 3: \n", matriz)
-#6-normalizar para que los valores estén en el rango 0-1
+#6-normalizar para que los valores estén en el rango 0-1 (x - xmin/ xmax -xmin)
+minimo = iris.min()
+maximo = iris.max()
+normalizar = (iris - minimo) / (maximo -minimo)
+
+print("valores normalizados:\n", normalizar)
 
 #7-guarda las 4 primeras columnas en una variable llamda x
 x = iris[:, 0:4]
-print(x)
+print("x = \n",x)
 
 #8-guarda la última columna en una variable y
 y = iris[:, 4]
-print(y)
+print("y = \n",y)
