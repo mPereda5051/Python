@@ -14,45 +14,54 @@
 
 #clase test miMovil(6666123456,12,2)
 #print(dir(miMovil)
-class Telefono():
+class Telefono:
     def __init__(self, numero):
         self.numero = numero
 
     def telefonear(self):
-        print("Llamando a: ", self.numero)
+        print("llamando")
+
     def colgar(self):
-        print("Colgando a: ", self.numero)
+        print("colgando")
+
     def __str__(self):
-        print(self.numero)
-class Camara():
+        return f"numero: {self.numero}"
+
+
+class Camara:
     def __init__(self, mpx):
-        self.mpx =mpx
+        self.mpx = mpx
 
     def fotografiar(self):
-        print("fotografiando en: " + self.mpx +"mpx")
+        print("fotografiando")
 
     def __str__(self):
-        print(self.mpx)
-class Reproductor():
+        return f"{self.mpx} mpx"
+
+
+class Reproductor:
     def __init__(self, capacidad):
         self.capacidad = capacidad
+
     def reproducirmp3(self):
-        print("Reproduciendo mp3")
+        print("reproduciendo mp3")
+
     def reproducirVideo(self):
-        print("Reproduciendo video")
+        print("reproduciendo video")
+
     def __str__(self):
-        print("Capacidad: " + self.capacidad)
-class Movil(Telefono,Camara,Reproductor):
-    def __init__(self):
-        super().__init__(self.numero)
-        super().__init__(self.mpx)
-        super().__init__(self.capacidad)
+        return f"capacidad: {self.capacidad} GB"
+
+
+class Movil(Telefono, Camara, Reproductor):
+    def __init__(self, numero, mpx, capacidad):
+        Telefono.__init__(self, numero)
+        Camara.__init__(self, mpx)
+        Reproductor.__init__(self, capacidad)
+
     def __str__(self):
-        msg = "Numero: {0}, mpx: {1}, capacidad: {2}"
-        return msg.format(self.numero,self.mpx,self.capacidad)
+        return f"Numero: {self.numero}, mpx: {self.mpx}, capacidad: {self.capacidad}GB"
 
-
-
-miMovil = Movil(6,12,200)
+miMovil = Movil(666612345, 12, 2)
 print(dir(miMovil))
 print(miMovil)
