@@ -25,7 +25,7 @@ class Astro:
     def diametro(self):
         return self._diametro
 
-    @diamtro.setter
+    @diametro.setter
     def diametro(self, diametro):
         self._diametro = diametro
     @property
