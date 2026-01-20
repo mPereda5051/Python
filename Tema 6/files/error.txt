@@ -1,0 +1,4 @@
+[ERROR] Usuario no encontrado: juanperez
+[ERROR] Archivo de configuraciÃ³n 'reportes.cfg' no encontrado
+[ERROR] Puerto 8080 en uso
+[ERROR] Fallo en mÃ³dulo de estadÃ­sticas: divisiÃ³n por cero

@@ -1,0 +1,5 @@
+[WARNING] ConfiguraciÃ³n regional no especificada, usando valores por defecto
+[WARNING] Latencia elevada en la conexiÃ³n (210 ms)
+[WARNING] Proceso 'backup' tardando mÃ¡s de lo esperado
+[WARNING] Uso de CPU al 85%
+[WARNING] Memoria disponible baja (12%)

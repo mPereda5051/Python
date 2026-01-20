@@ -1,0 +1,25 @@
+[INFO] Inicio del sistema
+[INFO] Cargando mÃ³dulos principales
+[INFO] Servicio de autenticaciÃ³n iniciado
+[INFO] Reintentando autenticaciÃ³n
+[INFO] AutenticaciÃ³n exitosa para usuario: admin
+[INFO] ConexiÃ³n establecida con la base de datos
+[INFO] Sincronizando datos iniciales
+[INFO] MÃ³dulo de reportes cargado correctamente
+[INFO] Generando archivo de configuraciÃ³n por defecto
+[INFO] Archivo de configuraciÃ³n creado
+[INFO] Iniciando monitor de procesos
+[INFO] Proceso 'backup' completado
+[INFO] Iniciando servidor web interno
+[INFO] Reintentando en puerto 8081
+[INFO] Servidor web iniciado en puerto 8081
+[INFO] Recibiendo solicitud GET /status
+[INFO] Respuesta enviada correctamente
+[INFO] Ejecutando limpieza de cachÃ©
+[INFO] CachÃ© limpiada
+[INFO] Reiniciando mÃ³dulo de estadÃ­sticas
+[INFO] MÃ³dulo de estadÃ­sticas operativo
+[INFO] Guardando estado del sistema
+[INFO] Sistema en espera
+[INFO] Finalizando servicios
+[INFO] Sistema detenido correctamente
