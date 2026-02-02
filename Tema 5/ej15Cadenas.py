@@ -1,5 +1,4 @@
 #las cadenas son secuencias de caracteres. Inmutable
-from numpy.testing.print_coercion_tables import print_new_cast_table
 
 cad ="Hola"
 cad2 ="Que tal?"
