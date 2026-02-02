@@ -13,3 +13,16 @@ numeros = [1,2,3,4,5]
 resultado_reduce = reduce(sumar,numeros)
 
 print(resultado_reduce)
+
+# 1- la funcion
+def unir_cadenas(x, y):
+    return x + " " + y
+
+# 2- iterable (lista de cadenas)
+palabras = ["Python", "es", "muy", "genial"]
+
+# 3- aplicar reduce
+resultado_reduce = reduce(unir_cadenas, palabras)
+
+# 4- imprimir
+print(resultado_reduce)
