@@ -3,7 +3,7 @@
 cad = input("escribe algo: ")
 #simbolo = input("escribe un simbolo: ")
 #cadLenght = len(cad)
-#esultado = simbolo.join(cad)
+#resultado = simbolo.join(cad)
 #rint(resultado)
 
 #reemplazar todos los caracteres de la cadena
